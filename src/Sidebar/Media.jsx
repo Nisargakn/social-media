@@ -15,6 +15,7 @@ const Media = ({ onMediaPlatform}) => {
     const [showPopover, setShowPopover] = useState(false);
     const [submittedIcons, setSubmittedIcons] = useState([]);
     const [mediaPlatform, setMediaPlatform] = useState([]);
+    const [, setlinkedIn] = useState([]);
 
     let [facebook, instagram] = mediaPlatform;
     console.log(mediaPlatform);
